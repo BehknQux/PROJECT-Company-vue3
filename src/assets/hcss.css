@@ -1,0 +1,63 @@
+body {
+    background-color: #212529 !important;
+    color: #ffc107 !important;
+}
+
+.h-btn-1 {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #212529;
+    padding: 7px;
+    border: #ffc107 solid 2px;
+    border-radius: 10px;
+    transition: 0.15s ease;
+}
+
+.h-btn-1:hover {
+    background-color: #212529;
+    color: #ffc107;
+}
+
+.h-btn-1:active {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.h-btn-2 {
+    display: inline-block;
+    background-color: #212529;
+    color: #ffc107;
+    padding: 7px;
+    border: #ffc107 solid 2px;
+    border-radius: 10px;
+    transition: 0.15s ease;
+}
+
+.h-btn-2:hover {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.h-btn-2:active {
+    background-color: #212529;
+    color: #ffc107;
+}
+
+.h-input {
+    display: block;
+    width: 100%;
+    background-color: #ffc107;
+    color: #212529;
+    padding: 7px;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    transition: 0.15s ease;
+    outline: none;
+}
+
+.h-input:focus {
+    background-color: #212529;
+    color: white;
+    border-color: #ffc107;
+    box-shadow: 0 0 10px #ffc107;
+}
